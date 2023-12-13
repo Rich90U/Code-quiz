@@ -104,8 +104,6 @@ document.addEventListener("DOMContentLoaded", function () {
         li.textContent = `${index + 1}. ${score.initials} - ${score.score}`;
         highscoresList.appendChild(li);
       });
-    } else {
-      console.error("Error: Unable to find the highscores list element.");
-    }
+    } 
   }
 });
